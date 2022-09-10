@@ -13,4 +13,9 @@
  ;; If there is more than one, they won't work right.
  '(custom-group-tag ((t (:inherit variable-pitch :foreground "brightmagenta" :weight bold :height 1.2))))
  '(custom-variable-tag ((t (:foreground "brightmagenta" :weight bold)))))
+
+;; increase colors
 (setq font-lock-maximum-decoration t)
+;; set line numbers
+(add-hook 'prog-mode-hook 'display-line-numbers-mode)
+(setq linum-format "%3d ")
