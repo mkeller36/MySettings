@@ -12,7 +12,10 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-group-tag ((t (:inherit variable-pitch :foreground "brightmagenta" :weight bold :height 1.2))))
- '(custom-variable-tag ((t (:foreground "brightmagenta" :weight bold)))))
+ '(custom-variable-tag ((t (:foreground "brightmagenta" :weight bold))))
+ '(font-lock-function-name-face ((t (:foreground "color-27"))))
+ '(minibuffer-prompt ((t (:foreground "color-160"))))
+ '(tool-bar ((t (:foreground "red" :box (:line-width 1 :style released-button))))))
 
 ;; increase colors
 (setq font-lock-maximum-decoration t)
