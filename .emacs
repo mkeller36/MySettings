@@ -22,3 +22,4 @@
 ;; set line numbers
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
 (setq linum-format "%3d ")
+(setq make-backup-files nil)
